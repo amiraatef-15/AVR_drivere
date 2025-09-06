@@ -44,5 +44,5 @@ This repository includes low-level drivers written in C, built with a layered ar
 - Proteus (for simulation)
 - AVR Dude / USBasp (for programming)
 
-📬 Contribution
-Feel free to fork, use, or contribute to improve the drivers.
+📬 note:
+there is a test and simple project for all drivers in main file
