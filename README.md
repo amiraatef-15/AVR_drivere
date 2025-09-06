@@ -1,2 +1,48 @@
-# AVR_drivere
-A collection of modular and reusable drivers for AVR microcontrollers, specifically developed for the ATmega32. This repo includes drivers for DIO, ADC, UART, Timer, and more — all implemented in C with layer-based architecture for better scalability and maintenance.
+# AVR_driveres
+
+
+A structured and modular collection of drivers for AVR Microcontrollers, specifically designed for the ATmega32.
+
+📌 Overview
+
+This repository includes low-level drivers written in C, built with a layered architecture (MCAL & HAL) to allow easy portability, readability, and reuse in embedded projects.
+
+📁 Driver List
+
+✅ MCAL Layer
+- DIO (Digital Input/Output)
+- ADC (Analog-to-Digital Converter)
+- TIMER (Timer0, Timer1, Timer2)
+- USART (Serial Communication)
+- SPI
+- I2C
+- External Interrupts
+- EEPROM
+
+✅ HAL Layer
+- LCD
+- Keypad
+- DC Motor
+- Servo Motor
+- Buzzer
+- LED
+- Temperature Sensor (LM35)
+  
+
+⚙️ Microcontroller Used
+- ATmega32
+
+💡 Features
+- Clean code structure
+- Layered abstraction (MCAL → HAL)
+- Reusable modules
+- Well-documented driver interfaces
+
+🛠️ Tools
+- AVR-GCC
+- Eclips
+- Proteus (for simulation)
+- AVR Dude / USBasp (for programming)
+
+📬 Contribution
+Feel free to fork, use, or contribute to improve the drivers.
